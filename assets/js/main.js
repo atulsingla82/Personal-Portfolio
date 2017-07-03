@@ -1,14 +1,3 @@
-/*=========================================
-
-Template Name: Colors - Personal Portfolio Template
-Author: ThemeFusionBD
-Version: 1.0
-Design and Developed by: ThemeFusionBD
-
-NOTE: This is the custom jQuery file for the template
-
-=========================================*/
-
 
 (function ($) {
 	"use strict";
