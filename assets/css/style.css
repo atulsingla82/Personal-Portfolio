@@ -639,91 +639,10 @@ ul.work-list li {
     margin-right: 0;
 }
 
-/*================================================
-            8 QUOTES AREA 
-==================================================*/
-.quotes-area{
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-    z-index: 1;
-}
-.quotes-content h3{
-    font-size: 42px;
-    color: #fff;
-    margin-bottom: 25px;
-    font-size: 800;
-}
-.quotes-content p{
-    color: #fff;
-}
-.quotes-content a{
-   
-    margin-top: 25px;
-}
-.quotes-area i.fa.fa-pencil {
-  font-size: 16px;
-  padding-right: 6px;
-}
 
 
 /*================================================
-            9 TESTIMONIAL AREA 
-==================================================*/
-
-.testimonial-area{
-    
-}
-.single-testimonial {
-    position: relative;
-    background-color: #fff;
-    padding: 15px 20px;
-    border: 1px solid #ddd;
-}
-.t-image {
-    height: 70px;
-    left: 20px;
-    position: absolute;
-    right: 0;
-    width: 70px;
-}
-.t-name{
-    padding: 13px 0;
-}
-.t-image img {
-    border-radius: 50%;
-    width: 100%;
-}
-.t-author h4 {
-    margin: 0;
-    font-size: 16px;
-    text-transform: uppercase;
-}
-.t-content {
-    margin-top: 30px;
-    font-size: 15px;
-}
-.t-author {
-    padding-left: 85px;
-}
-.testimonial-area .owl-dots {
-  margin-top: 35px;
-  text-align: center;
-}
-.testimonial-area .owl-dots div {
-  background: #222 none repeat scroll 0 0;
-  display: inline-block;
-  height: 5px;
-  margin-left: 5px;
-  width: 15px;
-}
-.testimonial-area .owl-dots div.active{
-   
-}
-
-
-/*================================================
-            10 CONTACT INFO SECTION
+            8 CONTACT INFO SECTION
 ==================================================*/
 .contact-info-area{
      background: #f5f5f5;
@@ -768,7 +687,7 @@ textarea.form-control{
     margin-bottom: 20px;
 }
 .single-address i.fa {
-  float: left;
+  /*float: left;*/
   font-size: 24px;
   height: 60px;
   line-height: 30px;
@@ -783,11 +702,11 @@ textarea.form-control{
 }
 
 .single-address p {
-    font-size: 15px;
+    font-size: 25px;
     font-weight: 300;
 }
 .social-link{
-    margin-top: 10px;
+    margin-top: 20px;
 }
 .social-link ul {
     list-style: outside none none;
