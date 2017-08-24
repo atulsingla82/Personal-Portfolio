@@ -1,14 +1,4 @@
 
-/*
-
-Template Name: Alo - Personal Portfolio Template
-Author: ThemeFusionBD
-Version: 1.0
-Design and Developed by:ThemeFusionBD
-
-NOTE:  
-
-*/
 
 
 /*================================================
