@@ -82,8 +82,8 @@
 
             $(function() {
                 element.typed({
-                    strings: ["Hi! I am Atul Singla", "A Javascript Web Developer.", "Freelance Coder.","An Experienced Manager.", "Team Player." ],
-                    typeSpeed: 100,
+                    strings: ["Hi! I am Atul Singla", "Javascript web developer.", "Freelance coder.","An experienced manager.", "Team player." ],
+                    typeSpeed: 80,
                     loop: true,
                 });
             });
