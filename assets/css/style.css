@@ -1,38 +1,6 @@
- /*************************************
-
-Template Name: Colors - Personal Portfolio Template
-Author: ThemeFusionBD
-Version: 1.0
-Design and Developed by: ThemeFusionBD
-
-NOTE: This is main stylesheet of the template.
-
-****************************************/
-
-
-/*================================================
-            Table of contents  
-==================================================
- 
-0. BASE CSS
-1. PRELOADER
-2. SECTION TITLE AND SECTION PADDING
-3. HEADER AREA
-4. WELCOME AREA
-5. ABOUT AREA
-6. SERVICES AREA
-7. WORK AREA
-8. QUOTES AREA
-9. TESTIMONIAL AREA 
-10. CONTACT INFO AREA
-11. FOOTER AREA
-
-====================================================
-            End table content 
-===================================================*/
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700,900);
-
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 
 
 /*================================================
@@ -175,21 +143,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
 }
-.logo a {
-  color: #fff;
-  display: inline-block;
-  font-size: 24px;
-  font-weight: 700;
-  letter-spacing: 3px;
-  margin-top: 18px;
-  text-transform: uppercase;
-  -webkit-transition: all 0.4s ease-in-out 0s;
-  transition: all 0.4s ease-in-out 0s;
-}
 
-.logo a:focus {
-    text-decoration: none;
-}
 
 .main-menu{
     text-transform: uppercase;
@@ -217,6 +171,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 
 .main-menu ul.navbar-nav li a:focus {
     background: none;
+    font-family: 'Permanent Marker', cursive;
 }
 .main-menu ul li:hover a{
     color: #f9f9f9;
@@ -228,9 +183,11 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 .custom-navbar.top-nav-collapse .main-menu ul.navbar-nav li a{
     color: #666;
      padding: 22px 13px;
+     font-size: 15px;
+
 }
 .custom-navbar.top-nav-collapse .main-menu ul.nav.navbar-nav li.active a{
-    
+  
    
 }
 
@@ -293,7 +250,9 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 }
 .typed-cursor, .element {
   display: inline;
-  font-weight: 900;
+  font-weight: 700;
+  font-family: 'Permanent Marker', cursive;
+  color: #ff9068; 
 }
 
 .welcome-area .home-arrow{
@@ -303,10 +262,12 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+
 }
 
 .welcome-area .home-arrow a{
-    font-size: 34px;
+    font-size: 44px;
+    color: #ff9068; 
 }
 .welcome-area .home-arrow .fa {
     display: inline-block;
@@ -743,8 +704,16 @@ textarea.form-control{
     background-color: #333;
     padding: 20px 0;
 }
-.footer p{
+.copy{
     font-size: 16px;
     color: #fff;
     margin: 0px;
+}
+.music{
+  font-size: 10px;
+  
+}
+.video{
+  font-size: 10px;
+
 }

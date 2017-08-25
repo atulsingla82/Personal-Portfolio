@@ -82,7 +82,7 @@
 
             $(function() {
                 element.typed({
-                    strings: ["Hi! I am Atul Singla", "Javascript web developer.", "Freelance coder.","An experienced manager.", "Team player." ],
+                    strings: ["Hi there! I am Atul ", " A full stack web developer.", "Freelance coder.","Experienced manager.", "Thanks for stopping by!" ],
                     typeSpeed: 80,
                     loop: true,
                 });
