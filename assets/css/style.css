@@ -241,16 +241,14 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     display: table-cell;
     vertical-align: middle;
 }
+
 .welcome-text{
-    
-}
-.welcome-text{
-    font-size: 65px;
+    font-size: 55px;
     color: #fff;
 }
 .typed-cursor, .element {
   display: inline;
-  font-weight: 700;
+  font-weight: 600;
   font-family: 'Permanent Marker', cursive;
   
 }
