@@ -6,8 +6,11 @@
             $body = $('body');
     
     jQuery(document).ready(function($){
-
     
+    var audio = document.createElement("audio");
+    audio.setAttribute('src', "assets/audio/audio.m4a");
+
+    audio.play();
     /*=============================
                 Sticky header
     ==============================*/
@@ -118,28 +121,7 @@
     $('.work-inner').mixItUp();
     
     
-    /*===================================
-            owl carousel testimonial
-     ====================================*/
-    $(".testimonial-list").owlCarousel({
-        loop:true,
-        margin:30,
-        nav:false,
-        dots:true,
-        autoplay:true,
-        autoplayHoverPause:true,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:2
-            },
-            1000:{
-                items:3
-            }
-        }
-    });
+    
     
 
     });
