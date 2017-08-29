@@ -6,11 +6,9 @@
             $body = $('body');
     
     jQuery(document).ready(function($){
-    
-    var audio = document.createElement("audio");
-    audio.setAttribute('src', "assets/audio/audio.m4a");
 
-    audio.play();
+     
+    
     /*=============================
                 Sticky header
     ==============================*/
@@ -134,6 +132,20 @@
          $('.spinner').fadeOut(); 
         $('.preloader').delay(350).fadeOut(500);
         $body.delay(350).css({'overflow':'visible'});
+
+     /*=============================
+               Audio Play/Mute
+    ==============================*/     
+    
+ var audio = document.getElementById('background_audio');
+
+document.getElementById('mute').addEventListener('click', function (e)
+{   
+    
+    e = e || window.event;
+    audio.muted = !audio.muted;
+    e.preventDefault();
+}, false);
             
         });
 
