@@ -118,17 +118,13 @@
     
     $('.work-inner').mixItUp();
     
-    
-    
-    
-
     });
     
    
     $window.load(function(){
-          /*=============================
+    /*=============================
                 Preloder
-        ==============================*/
+    ==============================*/
          $('.spinner').fadeOut(); 
         $('.preloader').delay(350).fadeOut(500);
         $body.delay(350).css({'overflow':'visible'});
