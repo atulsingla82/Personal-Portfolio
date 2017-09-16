@@ -86,6 +86,8 @@
                     strings: ["Hi there! I am Atul ", " A full stack web developer.", "Freelance coder.","Experienced manager.", "Thanks for stopping by!" ],
                     typeSpeed: 80,
                     loop: true,
+                    fadeOutClass: 'typed-fade-out',
+                    fadeOutDelay: 500,
                 });
             });
         
